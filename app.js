@@ -211,7 +211,7 @@ function onRpcConnectionVerified(getnetworkinfo, getblockchaininfo) {
 
 	global.getnetworkinfo = getnetworkinfo;
 
-	var bitcoinCoreVersionRegex = /^.*\/BCH Unlimited\:(.*)\/.*$/;
+	var bitcoinCoreVersionRegex = /^.*\/Bitcoin Purple\:(.*)\/.*$/;
 
 	var match = bitcoinCoreVersionRegex.exec(getnetworkinfo.subversion);
 	if (match) {
