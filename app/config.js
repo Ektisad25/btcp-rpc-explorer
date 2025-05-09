@@ -182,11 +182,8 @@ module.exports = {
           title:"Related Sites",
           links:[
             // TODO: find better images for this URLs, in the mean time use bch.svg
-            {name: "Bitcoin Unlimited", url:"https://www.bitcoinunlimited.info", imgUrl:"/img/logo/bu.png"},
-            {name: "Bitcoin Cash Nodes", url:"https://cashnodes.io", imgUrl:"/img/logo/bch.svg"},
-            {name: "BCH PoW Monitoring", url:"https://fork.lol", imgUrl:"/img/logo/fork.png"},
-            {name: "BCH Specification", url:"https://reference.cash", imgUrl:"/img/logo/refcash.ico"},
-            {name: "Bitcoin Cash Node", url:"https://bitcoincashnode.org/", imgUrl:"/img/logo/bchn.png"},
+            {name: "Bitcoin purple ", url:"https://www.bitcoinpurple.org", imgUrl:"/img/logo/bu.png"}
+            
           ]
         }
       ]
@@ -201,10 +198,10 @@ module.exports = {
 
   donations:{
     addresses:{
-      coins:["BCH"],
-      sites:{"BCH":"https://www.bitcoinunlimited.info"},
+      coins:["BTCP"],
+      sites:{"BTCP":"bitcoinpurple.org"},
 
-      "BCH":{address:"bitcoincash:pq6snv5fcx2fp6dlzg7s0m9zs8yqh74335tzvvfcmq"}
+      "BTCP":{address:"EMPTY"}
     }
   }
 
